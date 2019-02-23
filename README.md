@@ -37,7 +37,7 @@ Now to automate this use "Task Scheduler"
     Program/script: type "powershell.exe"
     Add arguments (optional): type "-ExecutionPolicy Bypass <Loaction to File>\host-updater.ps1" - without the quotes
 
-# I had issues with this setting where task scheduler wasnt able to run the task at all (even manually), if this is the case choose "Any Connection"
+#I had issues with this setting where task scheduler wasnt able to run the task at all (even manually), if this is the case choose "Any Connection"
 
 8. Go to the "Conditions" tab
     Choose power settings
