@@ -1,4 +1,7 @@
 # hostname-ip-updater
+
+update: 03/07/2019 - change script to fix issue of sometimes having a blank ip in hosts file, causing it to fail..
+
 auto change the ip of a hostname in the hosts file
 
 
