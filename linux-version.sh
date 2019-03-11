@@ -3,7 +3,7 @@
 #can automate with cron
 
 HOSTNAME=ph-1
-IP="$(ip route | grep default | grep -o 192.168.43.[0-255])"
+IP="$(ip route | grep default | grep -oE '192\.168\.43\.[0-9]{1,3}')"
 NETWORK_NAME='PH-1'
 
 #only run if network is available
