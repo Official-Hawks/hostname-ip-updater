@@ -1,6 +1,7 @@
 # hostname-ip-updater
 
 update: 03/07/2019 - change script to fix issue of sometimes having a blank ip in hosts file, causing it to fail..
+update: 03/12/2019 - added a linux version. Use cron with root to have it update every minute (if the wifi is not available it exists)
 
 auto change the ip of a hostname in the hosts file
 
